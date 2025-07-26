@@ -3,7 +3,7 @@ let hearts = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  
+
   heartColors = [
     color(255, 182, 193), // light pink
     color(255, 105, 180), // hot pink
@@ -19,6 +19,28 @@ function setup() {
   }
 
   noStroke();
+
+  // 👇 Credit text and hyperlinks
+  let credit = createP("Made with 💓 by Nupur Gudigar • ");
+  credit.style('color', '#fff');
+  credit.style('font-family', 'sans-serif');
+  credit.style('font-size', '14px');
+  credit.position(20, height - 40);
+
+  let githubLink = createA('https://github.com/Nupur-Gudigar', 'GitHub');
+  githubLink.parent(credit);
+  githubLink.style('color', '#ff69b4');
+  githubLink.style('margin-left', '10px');
+
+  let linkedinLink = createA('www.linkedin.com/in/nupur-gudigar', 'LinkedIn');
+  linkedinLink.parent(credit);
+  linkedinLink.style('color', '#ff69b4');
+  linkedinLink.style('margin-left', '10px');
+
+  let codedexLink = createA('https://www.codedex.io/@novana', 'Codedex');
+  codedexLink.parent(credit);
+  codedexLink.style('color', '#ff69b4');
+  codedexLink.style('margin-left', '10px');
 }
 
 function draw() {
