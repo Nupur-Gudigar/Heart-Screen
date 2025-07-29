@@ -32,7 +32,7 @@ function setup() {
   githubLink.style('color', '#ff69b4');
   githubLink.style('margin-left', '10px');
 
-  let linkedinLink = createA('www.linkedin.com/in/nupur-gudigar', 'LinkedIn');
+  let linkedinLink = createA('http://linkedin.com/in/nupur-gudigar', 'LinkedIn');
   linkedinLink.parent(credit);
   linkedinLink.style('color', '#ff69b4');
   linkedinLink.style('margin-left', '10px');
