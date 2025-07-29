@@ -1,1 +1,2 @@
 [![Image of my-views-counter](https://github.com/Nupur-Gudigar/my-views-counter/blob/master/svg/1025119047/badge.svg)](https://github.com/Nupur-Gudigar/my-views-counter/blob/master/readme/1025119047/week.md)
+# Heart-Screen [<img alt="Image of my-views-counter" src="https://github.com/Nupur-Gudigar/my-views-counter/blob/master/graph/1025119047/small/year.png" height="20">](https://github.com/Nupur-Gudigar/my-views-counter/blob/master/readme/1025119047/year.md)
